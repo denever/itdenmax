@@ -13,8 +13,8 @@ xkb_symbols "code" {
     key <AE11>	{ [apostrophe,   question,   eacute, questiondown ]	};
     key <AE12>	{ [    plus, asciicircum,  iacute, dead_circumflex ] };
 
-    key <AD11>	{ [   braceleft, bracketleft, nosign, nosign ]	};
-    key <AD12>	{ [   braceright,bracketright,  nosign,  nosign ]	};
+    key <AD11>	{ [   bracketleft, braceleft, nosign, nosign ]	};
+    key <AD12>	{ [   bracketright, braceright, nosign,  nosign ]	};
 
     key <AC10>	{ [    slash,   asciitilde,   at, dead_cedilla ] };
     key <AC11>	{ [    bar,     at,   numbersign, dead_abovering ] };
