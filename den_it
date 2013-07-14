@@ -6,10 +6,15 @@ xkb_symbols "code" {
 
     key <AE03>	{ [         3,   EuroSign,threesuperior,   asciitilde ]	};
     key <AE06>	{ [         6,  ampersand,      ugrave,  fiveeighths ]	};
-    key <AE07>	{ [         7,      slash,    egrave, seveneighths ]	};
+    key <AE07>	{ [         7,    asterisk,    egrave, seveneighths ]	};
     key <AE08>	{ [         8,  parenleft,  ograve,    trademark ]	};
-    key <AE09>	{ [         9, parenright, igrave,    plusminus ]	};
-    key <AE10>	{ [         0,      equal,   eacute,       degree ]	};
+    key <AE09>	{ [         9, parenright,   agrave,    plusminus ]	};
+    key <AE10>	{ [         0,      equal,   igrave,       degree ]	};
+    key <AE11>	{ [apostrophe,   question,   eacute, questiondown ]	};
+    key <AE12>	{ [    plus, asciicircum,  iacute, dead_circumflex ] };
+
+    key <AD11>	{ [   braceleft, bracketleft, nosign, nosign ]	};
+    key <AD12>	{ [   bracketright,   braceright,  nosign,  nosign ]	};
 
     key <AC10>	{ [    slash,   asciitilde,   at, dead_cedilla ] };
     key <AC11>	{ [    bar,     at,   numbersign, dead_abovering ] };
