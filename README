@@ -1,0 +1,4 @@
+How to use it:
+
+patch /usr/share/X11/xkb/symbols/it with it.patch
+patch /usr/share/X11/xkb/rules/base.xml with base.xml.patch
