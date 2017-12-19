@@ -1,0 +1,33 @@
+--- it~	2017-10-02 21:46:00.000000000 +0200
++++ it	2017-12-18 09:46:57.048585934 +0100
+@@ -300,5 +300,28 @@
+     include "kpdl(comma)"
+ };
+
++xkb_symbols "code" {
+
++    include "it(basic)"
++
++    name[Group1]="Italian Code Layout";
++
++    key <AE03>	{ [         3,   EuroSign,threesuperior,   asciitilde ]	};
++    key <AE06>	{ [         6,  ampersand,      ugrave,  fiveeighths ]	};
++    key <AE07>	{ [         7,    asterisk,    egrave, seveneighths ]	};
++    key <AE08>	{ [         8,  parenleft,  ograve,    trademark ]	};
++    key <AE09>	{ [         9, parenright,   agrave,    plusminus ]	};
++    key <AE10>	{ [         0,      equal,   igrave,       degree ]	};
++    key <AE11>	{ [apostrophe,   question,   eacute, questiondown ]	};
++    key <AE12>	{ [    plus, asciicircum,  iacute, dead_circumflex ] };
++
++    key <AD11>	{ [   bracketleft, braceleft, nosign, nosign ]	};
++    key <AD12>	{ [   bracketright, braceright, nosign,  nosign ]	};
++
++    key <AC10>	{ [    slash,   asciitilde,   at, dead_cedilla ] };
++    key <AC11>	{ [    bar,     at,   numbersign, dead_abovering ] };
++    key <BKSL>	{ [    numbersign,    grave,   dead_grave,   dead_breve ]};
++
++};
++
+ // EXTRAS:
+
+ partial alphanumeric_keys

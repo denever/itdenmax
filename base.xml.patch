@@ -1,0 +1,22 @@
+--- base.xml~	2017-10-02 21:46:00.000000000 +0200
++++ base.xml	2017-12-18 09:53:45.870905539 +0100
+@@ -3770,6 +3770,12 @@
+             <description>Italian (IBM 142)</description>
+           </configItem>
+         </variant>
++        <variant>
++          <configItem>
++            <name>code</name>
++            <description>Italian Coder Layout</description>
++          </configItem>
++        </variant>
+       </variantList>
+     </layout>
+     <layout>
+@@ -7199,4 +7205,4 @@
+       </option>
+     </group>
+   </optionList>
+-</xkbConfigRegistry>
+\ Manca newline alla fine del file
++</xkbConfigRegistry>
